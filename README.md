@@ -152,52 +152,52 @@ dan `flex-basis: auto` en wijs de juiste shrink- en grow-waardes toe.
 
 ![Het resultaat van opdracht 1](deel-2-flexbox-layout/assets/images/opdracht-1-eindresultaat.jpg)
 
-- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
-- [ ] Kijk eens goed naar de elementen in het eindresultaat. Moet de body de elementen naast elkaar (`row`) of onder
+- [X] Zorg dat de `body` zich gaat gedragen als een flex-container.
+- [X] Kijk eens goed naar de elementen in het eindresultaat. Moet de body de elementen naast elkaar (`row`) of onder
   elkaar (`column`) bevinden?
-- [ ] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser. Weet je niet meer
+- [X] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser. Weet je niet meer
   wat dit was? Bekijk EdHub Hfst. 6.5 nog eens!
-- [ ] Als het goed is, zie je nu alle elementen onder elkaar staan. Welk element moet een rij-container vormen, zodat de
+- [X] Als het goed is, zie je nu alle elementen onder elkaar staan. Welk element moet een rij-container vormen, zodat de
   elementen daarbinnen naast elkaar komen te staan? PS: het klopt dat de volgorde van je `nav` en `aside` nog niet
   overeenkomt met het voorbeeld, dit passen we later aan!
-- [ ] Geef alle elementen een `flex-basis` property. Onthoud dat wanneer elementen in een `column`-container staan, deze
+- [X] Geef alle elementen een `flex-basis` property. Onthoud dat wanneer elementen in een `column`-container staan, deze
   waarde iets zegt over de hoogte. Wanneer elementen in een `row`-container staan, zegt deze waarde iets over de
   breedte.  _TIP_: je kunt de waarde van flex-basis in een `column`-container beter uitdrukken in absolute waardes (
   zoals pixels) en in een `row`-container beter in relatieve waardes (zoals `vw` of procenten). Voor elementen die geen
   vaste hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je de waarde `auto` gebruiken.
-- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `header` en `footer` niet groeien of
+- [X] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `header` en `footer` niet groeien of
   krimpen.
-- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `main`, `nav`, en `aside` wel mogen
+- [X] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `main`, `nav`, en `aside` wel mogen
   groeien, maar niet krimpen.
-- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `article` zowel kan groeien als
+- [X] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `article` zowel kan groeien als
   krimpen.
-- [ ] Als laatste zullen we de volgorde van de verschillende elementen moeten aanpassen. Weet je nog welke property je
+- [X] Als laatste zullen we de volgorde van de verschillende elementen moeten aanpassen. Weet je nog welke property je
   hiervoor op de flex-items moet plaatsen? _TIP:_
   spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens onder de flex-item
   properties;
-- [ ] Controleer of de layout er nog steeds goed uitziet als je bijvoorbeeld 500 worden toevoegt aan het artikel. _TIP:_
+- [X] Controleer of de layout er nog steeds goed uitziet als je bijvoorbeeld 500 worden toevoegt aan het artikel. _TIP:_
   type `lorem500` + TAB om een placeholder-tekst van 500 worden te genereren
 
 ### Deelopdracht 2:
 
 ![Het resultaat van opdracht 2](deel-2-flexbox-layout/assets/images/opdracht-2-eindresultaat.jpg)
 
-- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
-- [ ] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich naast elkaar (`row`)
+- [X] Zorg dat de `body` zich gaat gedragen als een flex-container.
+- [X] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich naast elkaar (`row`)
   of onder elkaar (`column`) bevinden?
-- [ ] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser;
-- [ ] Zorg dat de `div` en de `main` zich ook als een flex-container gaan gedragen. Geef deze elementen ook de
+- [x] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser;
+- [X] Zorg dat de `div` en de `main` zich ook als een flex-container gaan gedragen. Geef deze elementen ook de
   juiste `flex-direction`, zodat de elementen zich onder elkaar positioneren;
-- [ ] Geef alle flex-items een `flex-basis` property. Onthoud dat wanneer elementen in een `column`-container staan,
+- [X] Geef alle flex-items een `flex-basis` property. Onthoud dat wanneer elementen in een `column`-container staan,
   deze waarde iets zegt over de hoogte. Wanneer elementen in een `row`-container staan, zegt deze waarde iets over de
   breedte. _TIP_: je kunt de waarde van flex-basis in een `column`-container beter uitdrukken in absolute waardes (zoals
   pixels) en in een `row`-container beter in relatieve waardes (zoals `vw` of procenten). Voor elementen die geen vaste
   hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je de waarde `auto` gebruiken.
-- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header` en `footer` niet
+- [X] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header` en `footer` niet
   groeien of krimpen.
-- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `div` en de `main` zowel mogen
+- [X] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `div` en de `main` zowel mogen
   groeien als krimpen.
-- [ ] Controleer of de layout er nog steeds goed uitziet als je bijvoorbeeld 500 worden toevoegt aan het artikel, of
+- [X] Controleer of de layout er nog steeds goed uitziet als je bijvoorbeeld 500 worden toevoegt aan het artikel, of
   juist alle tekst verwijderd.
 
 ### Deelopdracht 3:
@@ -213,18 +213,18 @@ Lukt het je om de layout zonder hulp te kunnen maken? Zo nee, spiek dan even bij
 
 ![Het resultaat van opdracht 4](deel-2-flexbox-layout/assets/images/opdracht-4-eindresultaat.jpg)
 
-- [ ] Zoals je kunt zien wordt de layout al wat complexer. Bekijk eerst goed hoe de elementen in het HTML-document zijn
+- [X] Zoals je kunt zien wordt de layout al wat complexer. Bekijk eerst goed hoe de elementen in het HTML-document zijn
   genest, voor je begint met positioneren.
-- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
-- [ ] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich naast elkaar (`row`)
+- [X] Zorg dat de `body` zich gaat gedragen als een flex-container.
+- [X] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich naast elkaar (`row`)
   of onder elkaar (`column`) bevinden?
-- [ ] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser;
-- [ ] Kijk goed welke andere elementen ook een flex-container moeten zijn, en welke richting zij nodig hebben. Teken dit zo nodig voor jezelf
+- [X] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser;
+- [X] Kijk goed welke andere elementen ook een flex-container moeten zijn, en welke richting zij nodig hebben. Teken dit zo nodig voor jezelf
   uit.
 - [ ] Geef alle flex-items een `flex-basis` property. Onthoud dat wanneer elementen in een `column`-container staan,
   deze waarde iets zegt over de hoogte. Wanneer elementen in een `row`-container staan, zegt deze waarde iets over de
   breedte.
-- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header`, `aside` en
+- [X] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header`, `aside` en
   de `footer` niet groeien of krimpen.
 - [ ] Alle overige flex-items mogen zowel groeien als krimpen.
 - [ ] Controleer of de layout er nog steeds goed uitziet als je bijvoorbeeld 500 worden toevoegt aan het artikel, of
@@ -234,16 +234,16 @@ Lukt het je om de layout zonder hulp te kunnen maken? Zo nee, spiek dan even bij
 
 ![Het resultaat van opdracht 5](deel-2-flexbox-layout/assets/images/opdracht-5-eindresultaat.jpg)
 
-- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
-- [ ] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich naast elkaar (`row`)
+- [X] Zorg dat de `body` zich gaat gedragen als een flex-container.
+- [X] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich naast elkaar (`row`)
   of onder elkaar (`column`) bevinden?
-- [ ] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser;
-- [ ] Kijk goed welke andere elementen ook een flex-container moeten zijn, en welke richting zij nodig hebben. Teken dit zo nodig voor jezelf
+- [X] Geef de body een minimale hoogte en gebruik daarvoor de totale _viewport height_ van je browser;
+- [X] Kijk goed welke andere elementen ook een flex-container moeten zijn, en welke richting zij nodig hebben. Teken dit zo nodig voor jezelf
   uit.
-- [ ] Geef alle flex-items een `flex-basis` property. Onthoud dat wanneer elementen in een `column`-container staan,
+- [X] Geef alle flex-items een `flex-basis` property. Onthoud dat wanneer elementen in een `column`-container staan,
   deze waarde iets zegt over de hoogte. Wanneer elementen in een `row`-container staan, zegt deze waarde iets over de
   breedte.
-- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header`, `aside` en
+- [X] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header`, `aside` en
   de `footer` niet groeien of krimpen.
 - [ ] Alle overige flex-items mogen zowel groeien als krimpen.
 - [ ] Controleer of de layout er nog steeds goed uitziet als je bijvoorbeeld 500 worden toevoegt aan het artikel, of
