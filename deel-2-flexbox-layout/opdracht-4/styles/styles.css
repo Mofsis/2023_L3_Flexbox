@@ -24,10 +24,6 @@ body {
     flex-direction: column;
 }
 
-/*nav {*/
-/*    flex-basis: 20%;*/
-/*}*/
-
 aside {
     flex-basis: 20%;
 }
@@ -42,11 +38,6 @@ article {
 footer {
     flex-basis: 20%;
 }
-
-/*nav, header, aside, footer {*/
-/*    flex-grow: 0;*/
-/*    flex-shrink: 0;*/
-/*}*/
 
 article {
     flex-grow: 1;
